@@ -66,10 +66,10 @@ body { background: var(--white); }
     border-radius: 4px;
 }
 
-.btn-primary { background: var(--dodger-blue); color: var(--white); border-color: var(--dodger-blue); }
+.btn-primary { background: #EDD992; color: #24263D; border-color: #DF7168; }
     .btn-primary:is(:hover, :focus) { --dodger-blue: hsl(205, 100%, 55%); }
 
-.h1, .h2, .h3, .h4 { color: var(--gunmetal); font-weight: var(--fw-500); }
+.h1, .h2, .h3, .h4 { color: #DF7168; font-weight: var(--fw-500); }
     .h1 { font-size: var(--fs-1); }
     .h2 { font-size: var(--fs-2); }
     .h3 { font-size: var(--fs-3); }
@@ -213,7 +213,7 @@ header {
     .features .section-title { margin-bottom: 50px; }
     .features .section-text { text-align: center; }
     .features .card-icon {
-        color: var(--sonic-silver);
+        color: #EEDB96;
         font-size: 60px;
         width: max-content;
         margin-inline: auto;
@@ -401,7 +401,7 @@ header {
     .container { max-width: 990px; padding: 0; }
     .btn { --fs-7: 18px; padding-block: 16px; }
 
-    header { padding: 35px 15px; background: transparent; }
+    header { padding: 35px 15px; background: #24263D; }
         header.active { padding: 15px; background: var(--white); }
         header .container { max-width: 980px; }
 
@@ -431,7 +431,7 @@ header {
     }
 
     .navbar-item:not(:last-child) { border-bottom: none; }
-    .navbar-link { --fs-5: 16px; color: var(--charcoal); padding: 0 10px; }
+    .navbar-link { --fs-5: 16px; color: #EDD992; padding: 0 10px; }
         .navbar-link:is(:hover, :focus) { background: none; }
     
 
